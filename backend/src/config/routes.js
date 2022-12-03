@@ -1,6 +1,6 @@
 const express = require('express');
 
-module.exports = function (server) {
+module.exports = function(server) {
     // API Routes
     //Define URL base para todas as rotas
     const router = express.Router();
