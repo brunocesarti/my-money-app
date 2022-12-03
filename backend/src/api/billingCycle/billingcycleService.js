@@ -21,4 +21,4 @@ BillingCycle.route('get', (req, res, next) => {
 
 })
 
-moudule.exports = BillingCycle;
+module.exports = BillingCycle;

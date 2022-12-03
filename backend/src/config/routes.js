@@ -8,6 +8,6 @@ module.exports = function (server) {
 
     // BillingCycle Routes
     //Rotas de Ciclo de Pagamento
-    const billingCycleService = require('../api/billingCycle/billingCycleService');
-    billingCycleService.register(router, '/billingCycles');
+    const BillingCycle = require('../api/billingCycle/billingCycleService');
+    BillingCycle.register(router, '/billingCycles');
 }
