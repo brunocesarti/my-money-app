@@ -14,7 +14,7 @@ BillingCycle.route('get', (req, res, next) => {
 
         } else {
 
-            res.status(500).json({errors: [error]})
+            res.status(500).json({errors: [err]})
 
         }
 
